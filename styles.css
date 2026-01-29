@@ -50,3 +50,23 @@ button {
   color: white;
   font-size: 2rem;
 }
+body::before {
+  content: "💖 💕 ❤️ 💗 💘 💓";
+  position: fixed;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  animation: floatHearts 10s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes floatHearts {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(120vh); }
+}
+
+.hidden {
+  display: none;
+}
