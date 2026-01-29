@@ -2,35 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Will You Be My Valentine? ❤️</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
-  <!-- CSS -->
-  <link rel="stylesheet" href="./styles.css">
+  <title>Valentine 💖</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <audio id="music" loop>
-    <source src="./music.mp3" type="audio/mpeg">
-  </audio>
-
   <div class="container">
-    <h1>Will You Be My Valentine? ❤️</h1>
-    <p class="name">Ma (Bhavya)</p>
-    <p class="message" id="typing-text"></p>
+    <h1>Will you be my Valentine? 💘</h1>
+
     <div class="buttons">
-      <button id="yes-btn">Yes! ❤️</button>
-      <button id="no-btn">No 😢</button>
+      <button id="yes-btn">YES 💖</button>
+      <button id="no-btn">NO 😜</button>
     </div>
-    <div id="response" class="hidden">
-      <p>Yay! You just made me the happiest person ever 💖</p>
-      <p>Our Valentine starts now 🥰🌹</p>
-    </div>
+
+    <h2 id="response" class="hidden">Yayyy 💕 I knew it 😍</h2>
   </div>
 
-  <!-- JS -->
-  <script src="./script.js"></script>
+  <!-- CONFETTI LIBRARY -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- YOUR SCRIPT -->
+  <script src="script.js"></script>
 </body>
-</html>        
+</html>
